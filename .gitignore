@@ -133,3 +133,7 @@ dmypy.json
 
 # Mac
 /.DS_Store
+
+# Don't check-in test txt files in data directory by default
+# since these files will be automatically generated during unittest
+/id_pkg/data/*.txt
